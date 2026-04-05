@@ -14,18 +14,18 @@ public class TriangleType {
 		System.out.println("Enter side 3 : ");
 		int c = sc.nextInt();
 		
-		if((a == b && b == c)
+		if(a==b && b==c)
 		{
-			System.out.print("Triangle is Equilateral ");
+			System.out.println("Triangle is Equilateral ");
 		}
 		
 		else if (a ==b || b==c || a==c)
 		 {
-			 System.out.print("Triangle is isosceles ");
+			 System.out.println("Triangle is isosceles ");
 		 }
 			else
 			 {
-			  System.out.print("Triangle is  Scalene ");
+			  System.out.println("Triangle is  Scalene ");
 			 }
 		 }
 	}
